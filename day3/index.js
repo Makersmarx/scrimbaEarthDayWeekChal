@@ -66,7 +66,7 @@ function renderBtns() {
       if (points < 0) {
         document.body.style.backgroundColor = 'red';
         pointsEl.textContent = `${points} points, you can do better 💀`;
-      } else if (points > 0) {
+      } else if (points >= 0) {
         document.body.style.backgroundColor = '#aad1b6ff';
         pointsEl.textContent = `${points} points, you rock 🤘!`;
       }
